@@ -1,7 +1,7 @@
 # Exchange Online Anti-Phishing Protection
 
 ## Introduction
-Phishing attacks are a significant threat to organizations, leading to data breaches, credential theft, and financial losses. **Fabrikam Inc.** has experienced an increase in phishing emails.
+Phishing attacks significantly threaten organizations, leading to data breaches, credential theft, and financial losses. **Fabrikam Inc.** has experienced an increase in phishing emails.
 
 ## Solution Overview
 To mitigate phishing risks,  I implemented the following security measures:
@@ -19,9 +19,11 @@ To mitigate phishing risks,  I implemented the following security measures:
 ### Step 1: Is to Configure Anti-Phishing Policies in Defender for Office 365
 - Go to Microsoft Defender Portal: https://security.microsoft.com
 - Sign in as a security administrator or Global administrator
-- Navigate to Email & Collaboration > Policies & Rules > Threat Policies > Anti-Phishing.
-- Review existing policies and determine gaps.
-- Then click on + Create to create new policies
+- Navigate to **Email & Collaboration** > **Policies & Rules** > **Threat Policies** > **Anti-Phishing**.
+- Define the policy name. In this case, I used **Fabrikam Anti-Phishing Policy**
+- I Add **protected users, domains, and mailbox intelligence**.
+- Then, I Enable **impersonation protection**.
+- I finally Reviewed the policy and then click on done to apply the policy
 
 ![image](https://github.com/user-attachments/assets/9e99add5-9958-4ab4-ae48-4b1dc9b6cd26)
 
@@ -34,14 +36,14 @@ To mitigate phishing risks,  I implemented the following security measures:
 ![image](https://github.com/user-attachments/assets/40cbcd27-b1e8-411e-b1e1-11fc83ca3556)
 
 - Here I added the domain
-  ![image](https://github.com/user-attachments/assets/f887b9fe-ecc9-4948-ac45-3699c75ddb08)
+![image](https://github.com/user-attachments/assets/f887b9fe-ecc9-4948-ac45-3699c75ddb08)
 
-  ![image](https://github.com/user-attachments/assets/9db96315-06ac-4a2a-8991-4a85618191c6)
+![image](https://github.com/user-attachments/assets/9db96315-06ac-4a2a-8991-4a85618191c6)
 
 ![image](https://github.com/user-attachments/assets/d26edde4-27de-499f-b00c-c4bb70d27dee)
 
 - Here I review the Anti-Phishing policy before submitting
-  ![image](https://github.com/user-attachments/assets/bd22d541-394d-4830-beb7-10a5eea1f73b)
+![image](https://github.com/user-attachments/assets/bd22d541-394d-4830-beb7-10a5eea1f73b)
 
 ### Step 2: I created an Anti-Spam policy
 
@@ -66,3 +68,46 @@ To mitigate phishing risks,  I implemented the following security measures:
 
 - After reviewing the Anti-Spam Policy I click on Create to create the policy
 ![image](https://github.com/user-attachments/assets/7af5bfc3-a9c6-4660-89ef-b88e61b09109)
+
+
+### **Step 3: Implementing Safe Links and Safe Attachments**  
+1. **To enable Safe Attachments**:
+- Navigate to **Threat Policies** > **Safe Attachments**.
+- Create a new policy to **scan attachments for malware** and define the policy
+- Configure options to **block or quarantine** suspicious files.
+- Then I reviewed and Applied the policy.
+
+<img width="954" alt="img16" src="https://github.com/user-attachments/assets/002628d4-eceb-4c43-90cc-bb1e5f1cbfd7" />
+
+<img width="950" alt="img17" src="https://github.com/user-attachments/assets/fdf2cc95-a2b1-4b81-a393-2bcaaec050dd" />
+
+<img width="943" alt="img18" src="https://github.com/user-attachments/assets/2417ac8f-0860-49d4-ba50-5bc57407b918" />
+
+<img width="954" alt="img20" src="https://github.com/user-attachments/assets/69016b48-7fb9-406b-8ce3-62733165aba2" />
+
+
+2. **Enable Safe Links**:
+- Navigate to **Threat Policies** > **Safe Links**.
+- Click **Create policy** and define the policy.
+- I Enable real-time scanning of **URL links in emails**.
+- Then I reviewed and Applied the policy.
+
+<img width="950" alt="img21" src="https://github.com/user-attachments/assets/af84e68a-4edf-46d0-a594-0c3f7dc9bd7e" />
+
+<img width="944" alt="img22" src="https://github.com/user-attachments/assets/fb621abf-6814-4468-9378-f53fc41db1a6" />
+
+<img width="948" alt="img23" src="https://github.com/user-attachments/assets/1de1b78e-60f9-429f-8fc2-367489619abb" />
+<img width="948" alt="img24" src="https://github.com/user-attachments/assets/1981edfa-cd1e-45d4-adfd-7b8fe71ddf35" />
+<img width="954" alt="img25" src="https://github.com/user-attachments/assets/124a43d3-d929-4ca1-92ac-0d81eaaa9bf6" />
+
+
+### **Setting Up SPF, DKIM, and DMARC for Email Authentication**  
+1. **SPF**: Essential the SPF record has already been done
+2. I enabled the **DKIM** before testing to see if email from my domain passed **SPF** and **DKIM** by sending an email from my domain to my Gmail using Mxtoolbox to verify.
+
+<img width="939" alt="img11" src="https://github.com/user-attachments/assets/fd34363e-6587-4f36-ab90-5f5531c37a69" />
+<img width="935" alt="img12" src="https://github.com/user-attachments/assets/49d2fdfd-e643-4d28-b0ce-9da28d98758b" />
+
+
+
+<img width="918" alt="img10" src="https://github.com/user-attachments/assets/cfba1802-2aa3-4624-a2e5-e532b2b417a1" />
