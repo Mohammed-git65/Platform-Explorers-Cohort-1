@@ -1,4 +1,4 @@
-# Exchange Online Anti-Phishing Protection
+# Configuring Email Security to Prevent Phishing Attacks
 
 ## Introduction
 Phishing attacks significantly threaten organizations, leading to data breaches, credential theft, and financial losses. **Fabrikam Inc.** has experienced an increase in phishing emails.
@@ -17,7 +17,8 @@ To mitigate phishing risks,  I implemented the following security measures:
 **Threat Explorer** analyzes phishing attempts and improves detection mechanisms.
 
 ### Step 1: Is to Configure Anti-Phishing Policies in Defender for Office 365
-- Go to Microsoft Defender Portal: https://security.microsoft.com
+To do that:
+- I went to Microsoft Defender Portal: https://security.microsoft.com
 - Sign in as a security administrator or Global administrator
 - Navigate to **Email & Collaboration** > **Policies & Rules** > **Threat Policies** > **Anti-Phishing**.
 - Define the policy name. In this case, I used **Fabrikam Anti-Phishing Policy**
@@ -47,10 +48,10 @@ To mitigate phishing risks,  I implemented the following security measures:
 
 ### Step 2: I created an Anti-Spam policy
 
-- Go to Microsoft Defender Portal: https://security.microsoft.com
+- I went to Microsoft Defender Portal: https://security.microsoft.com
 - Sign in as a security administrator or Global administrator
-- Navigate to Email & Collaboration > Policies & Rules > Threat Policies > Anti-Spam.
-- Then click on + Create to create new policies
+- Navigate to **Email & Collaboration** > **Policies & Rules** > **Threat Policies** > **Anti-Spam**.
+- Then click on **+ Create** to create new policies
 
 ![image](https://github.com/user-attachments/assets/1598adf6-a698-4bbb-8d31-023e01a47904)
 
@@ -58,7 +59,7 @@ To mitigate phishing risks,  I implemented the following security measures:
 
 ![image](https://github.com/user-attachments/assets/4f76da16-85b4-41b3-9bc6-bba07d6e51e9)
 
-- Here Action to be taken
+- Here are Actions to be taken
 ![image](https://github.com/user-attachments/assets/ff542780-c211-4d6e-8e35-6a1a9ff55d4d)
 
 ![image](https://github.com/user-attachments/assets/eeb740a9-27f5-4c90-8806-3dc84e23de84)
@@ -74,7 +75,7 @@ To mitigate phishing risks,  I implemented the following security measures:
 1. **To enable Safe Attachments**:
 - Navigate to **Threat Policies** > **Safe Attachments**.
 - Create a new policy to **scan attachments for malware** and define the policy
-- Configure options to **block or quarantine** suspicious files.
+- I configure options to **block or quarantine** suspicious files.
 - Then I reviewed and Applied the policy.
 
 <img width="954" alt="img16" src="https://github.com/user-attachments/assets/002628d4-eceb-4c43-90cc-bb1e5f1cbfd7" />
@@ -87,8 +88,9 @@ To mitigate phishing risks,  I implemented the following security measures:
 
 
 2. **Enable Safe Links**:
+To do that:
 - Navigate to **Threat Policies** > **Safe Links**.
-- Click **Create policy** and define the policy.
+- I click **Create policy** and define the policy.
 - I Enable real-time scanning of **URL links in emails**.
 - Then I reviewed and Applied the policy.
 
@@ -101,18 +103,30 @@ To mitigate phishing risks,  I implemented the following security measures:
 <img width="954" alt="img25" src="https://github.com/user-attachments/assets/124a43d3-d929-4ca1-92ac-0d81eaaa9bf6" />
 
 
-### **Setting Up SPF, DKIM, and DMARC for Email Authentication**  
-1. **SPF**: Essential the SPF record has already been done
-2. I enabled the **DKIM** before testing to see if email from my domain passed **SPF** and **DKIM** by sending an email from my domain to my Gmail using Mxtoolbox to verify.
+### **Setting up SPF, DKIM, and DMARC for Email Authentication**  
+1. **SPF**: The SPF record has already been done
+2. Before I enabled the **DKIM** I sent an email from my domain to Gmail to see if it would pass **SPF** and **DKIM** using Mxtoolbox to verify and see if it passes **SPF** and **DKIM**.
 
+**The Screenshots below only show that it passes only SPF**
 <img width="939" alt="img11" src="https://github.com/user-attachments/assets/fd34363e-6587-4f36-ab90-5f5531c37a69" />
 <img width="935" alt="img12" src="https://github.com/user-attachments/assets/49d2fdfd-e643-4d28-b0ce-9da28d98758b" />
 
-
-
 <img width="918" alt="img10" src="https://github.com/user-attachments/assets/cfba1802-2aa3-4624-a2e5-e532b2b417a1" />
 
-## **Step 3: **To enable Zero-Hour Auto Purge (ZAP) in Microsoft 365 Defender**
+So after I published the **Cname** in my domain provider and then enabled **DKIM** it passed both **SPF** and **DKIM**
+
+![image](https://github.com/user-attachments/assets/7765df93-9801-4bbc-a5a1-7c55c481364a)
+
+![image](https://github.com/user-attachments/assets/f959fd2c-07c5-4b08-b731-e1d614806ff1)
+
+![image](https://github.com/user-attachments/assets/e3e39316-78ac-4d5a-8f25-2732837bd325)
+
+
+## **DMARC**
+
+![image](https://github.com/user-attachments/assets/a1f9e92d-9a3c-4199-a908-79b440af414a)
+
+## **Step 3: To enable Zero-Hour Auto Purge (ZAP) in Microsoft 365 Defender**
 - Sign in to the **Microsoft 365 Defender portal**. 
 - Navigate to **Threat Policies**:
 - Under **Email & collaboration,** I select **Policies & rules**.
@@ -122,3 +136,13 @@ To mitigate phishing risks,  I implemented the following security measures:
 - Then, I checked the box labeled **Enable zero-hour auto purge for malware (Recommended)**.
 - And Click **Save**. 
 ![image](https://github.com/user-attachments/assets/100e5b74-cca6-4511-9500-51583503e233)
+
+## **To test for Phishing emails using Threat Explorer**
+- I Access Threat Explorer:
+- I went to the Microsoft Defender portal: https://security.microsoft.com
+- Navigate to **Email & collaboration** > **Explorer**
+- I selected the Phish View:
+- In Threat Explorer, select the **Phish** view to filter the email 
+![image](https://github.com/user-attachments/assets/27529d36-626b-4aef-a8f9-3b6de426f767)
+
+![image](https://github.com/user-attachments/assets/97d05a1a-5cd6-4638-b638-2a35bbe82807)
