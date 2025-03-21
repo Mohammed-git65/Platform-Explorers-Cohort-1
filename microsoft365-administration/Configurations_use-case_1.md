@@ -111,3 +111,14 @@ To mitigate phishing risks,  I implemented the following security measures:
 
 
 <img width="918" alt="img10" src="https://github.com/user-attachments/assets/cfba1802-2aa3-4624-a2e5-e532b2b417a1" />
+
+## **Step 3: **To enable Zero-Hour Auto Purge (ZAP) in Microsoft 365 Defender**
+- Sign in to the **Microsoft 365 Defender portal**. 
+- Navigate to **Threat Policies**:
+- Under **Email & collaboration,** I select **Policies & rules**.
+- Then, I selected **Threat policies**. 
+- Then to configure the Anti-malware Policies:
+- Under **Policies**, I selected **Anti-malware**, Selected the **Default (Default)** policy, and Clicked **Edit protection settings**. 
+- Then, I checked the box labeled **Enable zero-hour auto purge for malware (Recommended)**.
+- And Click **Save**. 
+![image](https://github.com/user-attachments/assets/100e5b74-cca6-4511-9500-51583503e233)
