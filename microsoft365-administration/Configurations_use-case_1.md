@@ -126,7 +126,7 @@ So after I published the **Cname** in my domain provider and then enabled **DKIM
 
 ![image](https://github.com/user-attachments/assets/a1f9e92d-9a3c-4199-a908-79b440af414a)
 
-## **Step 3: To enable Zero-Hour Auto Purge (ZAP) in Microsoft 365 Defender**
+## **Step 3: To Enable Zero-Hour Auto Purge (ZAP) in Microsoft 365 Defender**
 - Sign in to the **Microsoft 365 Defender portal**. 
 - Navigate to **Threat Policies**:
 - Under **Email & collaboration,** I select **Policies & rules**.
@@ -137,12 +137,13 @@ So after I published the **Cname** in my domain provider and then enabled **DKIM
 - And Click **Save**. 
 ![image](https://github.com/user-attachments/assets/100e5b74-cca6-4511-9500-51583503e233)
 
-## **To test for Phishing emails using Threat Explorer**
-- I Access Threat Explorer:
+## **After all the configurations I test for Phishing emails using Threat Explorer**
+
+To do that:
+- I Access **Threat Explorer**
 - I went to the Microsoft Defender portal: https://security.microsoft.com
 - Navigate to **Email & collaboration** > **Explorer**
-- I selected the Phish View:
-- In Threat Explorer, select the **Phish** view to filter the email 
+- I selected the **Phish View** in **Threat Explorer** to filter the email 
 ![image](https://github.com/user-attachments/assets/27529d36-626b-4aef-a8f9-3b6de426f767)
 
 ![image](https://github.com/user-attachments/assets/97d05a1a-5cd6-4638-b638-2a35bbe82807)
