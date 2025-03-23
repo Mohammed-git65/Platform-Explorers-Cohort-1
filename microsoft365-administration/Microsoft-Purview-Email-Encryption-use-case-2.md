@@ -22,7 +22,6 @@ To ensure emails containing sensitive legal documents are encrypted, the law fir
 - Sign in to the Microsoft 365 Admin Center → Open the Exchange Admin Center.
   <img width="705" alt="img1" src="https://github.com/user-attachments/assets/3e19380b-ac16-4832-ad97-c535218c0891" />
 
-
 2. Create a New Mail Flow Rule
 
 - Navigate to Mail Flow → Rules → Click + Add a Rule → Select Create a New Rule.
@@ -54,6 +53,16 @@ Under Do the following, I choose:
 ![image](https://github.com/user-attachments/assets/485b1222-8cca-4fa7-8585-554b9c704535)
 
 ![image](https://github.com/user-attachments/assets/ec789fe1-a85b-4a11-89b8-c3f9d54f6f59)
+
+- Set the rule settings
+![image](https://github.com/user-attachments/assets/6ee8c7e1-311c-40bd-a7b3-fc2ae39289d3)
+
+- Review and Finish
+
+![image](https://github.com/user-attachments/assets/9d813714-2ab2-43b8-bb7f-a85770c159f0)
+
+![image](https://github.com/user-attachments/assets/78a52461-f7ac-4fd1-bc60-b0485f794323)
+
 
 
 Save and Activate the Rule
