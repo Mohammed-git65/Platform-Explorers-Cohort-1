@@ -1,5 +1,5 @@
 ## **Setting Up Email Encryption for Sensitive Communication**
-The law firm will implement Microsoft Purview Message Encryption (OME) in Exchange Online to protect sensitive legal documents in email communication. This setup ensures that any email containing legal documents is encrypted when sent externally, complying with data protection and confidentiality requirements.
+A law firm needs to ensure that emails containing sensitive legal documents are encrypted when sent externally.
 
 ## **Step 1: Is Understanding Microsoft Purview Message Encryption**
 
@@ -31,16 +31,13 @@ To ensure emails containing sensitive legal documents are encrypted, the law fir
 
 ![image](https://github.com/user-attachments/assets/239b288f-b22e-44aa-81e6-ec4f461a33f9)
 
-
 3. Define the Conditions for Encryption
-
-- Name the rule: "Encrypt Emails with Sensitive Legal Documents"
-
-Apply the rule if:
+- Name the rule: I named it Encrypt Emails with Sensitive Legal Documents
+Then, I apply the rule if:
 
 ![image](https://github.com/user-attachments/assets/20064c99-5921-44de-be5e-45ba5884fd6d)
 
-The subject or body contains specific words: keywords like "Confidential"
+The subject or body contains specific words: I used the keywords like "Confidential"
 
 ![image](https://github.com/user-attachments/assets/d0e5263c-7fd1-4bb8-be57-01887c44b300)
 
@@ -63,28 +60,25 @@ Under Do the following, I choose:
 
 ![image](https://github.com/user-attachments/assets/78a52461-f7ac-4fd1-bc60-b0485f794323)
 
+After Reviewing, click on Done to effect the policy.
 
+**Step 3: Is to send and verify an Encrypted Email**
+- I send an Encrypted email from Outlook to Gmail to verify
+![image](https://github.com/user-attachments/assets/25325e3d-24fd-4258-985e-a47ab876aa32)
 
-Save and Activate the Rule
+Here's the Encrypted message in my Gmail
+![image](https://github.com/user-attachments/assets/c415b2f4-c4a2-4177-a7fc-7e2edd479b7f)
 
-Click Save and test the rule to verify functionality.
+Here you're requested to either sign in with your Gmail account or an OTP
+![image](https://github.com/user-attachments/assets/6c66dcb8-9890-4f36-8d40-29a4454a0e21)
 
-**Step 3: Enable Office Message Encryption (OME) for External Recipients**
-This would allow external recipients to access encrypted emails.
+Here I opted for an OTP to open the email
+![image](https://github.com/user-attachments/assets/7b6e084a-9090-41e6-a045-2abf7d59c82a)
 
-Here are the Steps to Enable OME:
-- Open Microsoft Purview Compliance Center → Go to Information Protection.
-![image](https://github.com/user-attachments/assets/a0ded235-09da-43c2-ac53-d5130f2631ef)
+Finally, I open the Encrypted message using the OPT
 
-![image](https://github.com/user-attachments/assets/2249ff79-d097-4f76-994c-8d97b413eed0)
+![image](https://github.com/user-attachments/assets/ca69bf80-b5bb-4c96-a42b-245a12579267)
 
+## **Conclusion**
 
-Under Microsoft Purview Message Encryption, ensure OME is enabled.
-
-Customize the encryption template for the law firm:
-
-Branding: Add the firm's logo and a customized message.
-
-Default Permissions: Allow recipients to view-only or reply securely.
-
-
+With this solution in place, the law firm can confidently send sensitive legal communications without worrying about security risks. By using Microsoft Purview Message Encryption and setting up Exchange Online Mail Flow rules, every external email is automatically protected. This not only ensures confidentiality but also helps the firm stay compliant with data protection regulations while keeping sensitive legal information safe from unauthorized access.
