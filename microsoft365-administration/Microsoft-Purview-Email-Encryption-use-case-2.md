@@ -69,3 +69,22 @@ Save and Activate the Rule
 
 Click Save and test the rule to verify functionality.
 
+**Step 3: Enable Office Message Encryption (OME) for External Recipients**
+This would allow external recipients to access encrypted emails.
+
+Here are the Steps to Enable OME:
+- Open Microsoft Purview Compliance Center → Go to Information Protection.
+![image](https://github.com/user-attachments/assets/a0ded235-09da-43c2-ac53-d5130f2631ef)
+
+![image](https://github.com/user-attachments/assets/2249ff79-d097-4f76-994c-8d97b413eed0)
+
+
+Under Microsoft Purview Message Encryption, ensure OME is enabled.
+
+Customize the encryption template for the law firm:
+
+Branding: Add the firm's logo and a customized message.
+
+Default Permissions: Allow recipients to view-only or reply securely.
+
+
