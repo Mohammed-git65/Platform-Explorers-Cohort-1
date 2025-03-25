@@ -88,13 +88,13 @@ To do that:
 - I Enable real-time scanning of **URL links in emails**.
 - Then I reviewed and Applied the policy.
 
-<img width="950" alt="img21" src="https://github.com/user-attachments/assets/af84e68a-4edf-46d0-a594-0c3f7dc9bd7e" />
+![image](https://github.com/user-attachments/assets/0d5eae24-54bb-4903-88f6-df2b2590e686)
 
-<img width="944" alt="img22" src="https://github.com/user-attachments/assets/fb621abf-6814-4468-9378-f53fc41db1a6" />
+![image](https://github.com/user-attachments/assets/b76f7d48-9492-444f-95e8-6533c2d7e1bb)
 
-<img width="948" alt="img23" src="https://github.com/user-attachments/assets/1de1b78e-60f9-429f-8fc2-367489619abb" />
-<img width="948" alt="img24" src="https://github.com/user-attachments/assets/1981edfa-cd1e-45d4-adfd-7b8fe71ddf35" />
-<img width="954" alt="img25" src="https://github.com/user-attachments/assets/124a43d3-d929-4ca1-92ac-0d81eaaa9bf6" />
+![image](https://github.com/user-attachments/assets/a9a52ebd-6339-4a0a-ba78-673a806791ff)
+
+![image](https://github.com/user-attachments/assets/3d183124-696f-49b4-bb25-df4e8f6fce7f)
 
 
 ### **Setting up SPF, DKIM, and DMARC for Email Authentication**  
