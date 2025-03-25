@@ -62,14 +62,9 @@ To do that:
 - Here are the Actions to be taken
 ![image](https://github.com/user-attachments/assets/39276b9c-ccd4-4331-8a3e-3c3c6e7015b2)
 
-
-![image](https://github.com/user-attachments/assets/eeb740a9-27f5-4c90-8806-3dc84e23de84)
-
-- Here I review the Anti-Spam Policy before I click on create
-![image](https://github.com/user-attachments/assets/a425ed10-f3c0-484c-8907-1adf23ed909f)
-
 - After reviewing the Anti-Spam Policy, I click on Create to create the policy
-![image](https://github.com/user-attachments/assets/7af5bfc3-a9c6-4660-89ef-b88e61b09109)
+![image](https://github.com/user-attachments/assets/cc9325fa-8c86-4d36-bd97-1784f71a53ac)
+
 
 ## **Step 3: Implementing Safe Links and Safe Attachments**  
 1. **To enable Safe Attachments**:
@@ -78,14 +73,13 @@ To do that:
 - I configure options to **block or quarantine** suspicious files.
 - Then I reviewed and Applied the policy.
 
-<img width="954" alt="img16" src="https://github.com/user-attachments/assets/002628d4-eceb-4c43-90cc-bb1e5f1cbfd7" />
+![image](https://github.com/user-attachments/assets/ad1133b5-fbed-42d3-bf0c-677c24d54dfe)
 
-<img width="950" alt="img17" src="https://github.com/user-attachments/assets/fdf2cc95-a2b1-4b81-a393-2bcaaec050dd" />
+![image](https://github.com/user-attachments/assets/863b678a-d798-4617-9ada-e656c1bd9ec5)
 
-<img width="943" alt="img18" src="https://github.com/user-attachments/assets/2417ac8f-0860-49d4-ba50-5bc57407b918" />
+![image](https://github.com/user-attachments/assets/d0a58b73-47ec-4c57-91dd-557266bb422c)
 
-<img width="954" alt="img20" src="https://github.com/user-attachments/assets/69016b48-7fb9-406b-8ce3-62733165aba2" />
-
+![image](https://github.com/user-attachments/assets/01081a2e-e027-47d0-a975-49581ca5ef29)
 
 2. **Enable Safe Links**:
 To do that:
