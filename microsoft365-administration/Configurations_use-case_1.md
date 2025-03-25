@@ -16,35 +16,37 @@ To mitigate phishing risks,  I implemented the following security measures:
 
 **Threat Explorer** analyzes phishing attempts and improves detection mechanisms.
 
-### Step 1: Is to Configure Anti-Phishing Policies in Defender for Office 365
+### Step 1: Configure Anti-Phishing Policies in Defender for Office 365
 To do that:
 - I went to Microsoft Defender Portal: https://security.microsoft.com
-- Sign in as a security administrator or Global administrator
+- Sign in as a security administrator or a Global administrator
 - Navigate to **Email & Collaboration** > **Policies & Rules** > **Threat Policies** > **Anti-Phishing**.
 - Define the policy name. In this case, I used **Fabrikam Anti-Phishing Policy**
-- I Add **protected users, domains, and mailbox intelligence**.
-- Then, I Enable **impersonation protection**.
-- I finally Reviewed the policy and then click on done to apply the policy
+- I add **protected users, domains, and mailbox intelligence**.
+- Then, I enable **impersonation protection**.
+- I finally reviewed the policy and then clicked on Done to apply the policy
 
-![image](https://github.com/user-attachments/assets/9e99add5-9958-4ab4-ae48-4b1dc9b6cd26)
+![image](https://github.com/user-attachments/assets/cc149fce-f485-4ddb-9451-c5057d0c6d05)
 
-![image](https://github.com/user-attachments/assets/aa8d97a0-6952-4f06-9e8c-4acf2b3971ca)
+![image](https://github.com/user-attachments/assets/918bc062-6e62-415f-bb51-6841199d2f16)
 
-![image](https://github.com/user-attachments/assets/0dc84cbf-9b50-4c5e-83a3-67b221a60a92)
+![image](https://github.com/user-attachments/assets/f94f647f-be2f-4506-96b0-8031b5a4a6c8)
 
-![image](https://github.com/user-attachments/assets/2ba2e8d5-68ee-4359-91d4-92683bd144aa)
+![image](https://github.com/user-attachments/assets/7c24988a-3bd8-4ccb-b018-9ffe160ba747)
 
-![image](https://github.com/user-attachments/assets/40cbcd27-b1e8-411e-b1e1-11fc83ca3556)
+![image](https://github.com/user-attachments/assets/58f95173-ed7d-4d24-b955-e4b72685d003)
+
 
 - Here I added the domain
-![image](https://github.com/user-attachments/assets/f887b9fe-ecc9-4948-ac45-3699c75ddb08)
+![image](https://github.com/user-attachments/assets/02785050-ff71-4bb6-9e24-5d78efd21891)
 
-![image](https://github.com/user-attachments/assets/9db96315-06ac-4a2a-8991-4a85618191c6)
+![image](https://github.com/user-attachments/assets/c501a290-1a4a-4fe3-a298-182a3cc64da7)
 
-![image](https://github.com/user-attachments/assets/d26edde4-27de-499f-b00c-c4bb70d27dee)
+![image](https://github.com/user-attachments/assets/5ee96b79-3a9e-4643-8dad-322c7ee10d7d)
 
 - Here I review the Anti-Phishing policy before submitting
-![image](https://github.com/user-attachments/assets/bd22d541-394d-4830-beb7-10a5eea1f73b)
+![image](https://github.com/user-attachments/assets/7c9f36af-7901-4012-83d8-7fbd6a0f03c7)
+
 
 ### Step 2: I created an Anti-Spam policy
 
