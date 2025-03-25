@@ -51,29 +51,27 @@ To do that:
 ### Step 2: I created an Anti-Spam policy
 
 - I went to Microsoft Defender Portal: https://security.microsoft.com
-- Sign in as a security administrator or Global administrator
+- Sign in as a security administrator or a Global administrator
 - Navigate to **Email & Collaboration** > **Policies & Rules** > **Threat Policies** > **Anti-Spam**.
 - Then click on **+ Create** to create new policies
 
-![image](https://github.com/user-attachments/assets/1598adf6-a698-4bbb-8d31-023e01a47904)
+![image](https://github.com/user-attachments/assets/5a7f06bc-04d6-4263-93d3-2bc91cbb0015)
 
-![image](https://github.com/user-attachments/assets/edd4df82-fc6a-4a0c-aede-0d6f714bd8bc)
+![image](https://github.com/user-attachments/assets/9a368b9e-5548-42b1-b781-c2c4f05d73a4)
 
-![image](https://github.com/user-attachments/assets/4f76da16-85b4-41b3-9bc6-bba07d6e51e9)
+- Here are the Actions to be taken
+![image](https://github.com/user-attachments/assets/39276b9c-ccd4-4331-8a3e-3c3c6e7015b2)
 
-- Here are Actions to be taken
-![image](https://github.com/user-attachments/assets/ff542780-c211-4d6e-8e35-6a1a9ff55d4d)
 
 ![image](https://github.com/user-attachments/assets/eeb740a9-27f5-4c90-8806-3dc84e23de84)
 
 - Here I review the Anti-Spam Policy before I click on create
-![image](https://github.com/user-attachments/assets/8f1497f2-f280-433a-a9d4-1d4d1dc3552b)
+![image](https://github.com/user-attachments/assets/a425ed10-f3c0-484c-8907-1adf23ed909f)
 
-- After reviewing the Anti-Spam Policy I click on Create to create the policy
+- After reviewing the Anti-Spam Policy, I click on Create to create the policy
 ![image](https://github.com/user-attachments/assets/7af5bfc3-a9c6-4660-89ef-b88e61b09109)
 
-
-### **Step 3: Implementing Safe Links and Safe Attachments**  
+## **Step 3: Implementing Safe Links and Safe Attachments**  
 1. **To enable Safe Attachments**:
 - Navigate to **Threat Policies** > **Safe Attachments**.
 - Create a new policy to **scan attachments for malware** and define the policy
