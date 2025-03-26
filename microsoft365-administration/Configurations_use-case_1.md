@@ -71,7 +71,7 @@ To do that:
 - Navigate to **Threat Policies** > **Safe Attachments**.
 - Create a new policy to **scan attachments for malware** and define the policy
 - I configure options to **block or quarantine** suspicious files.
-- Then I reviewed and Applied the policy.
+- Then I reviewed and applied the policy.
 
 ![image](https://github.com/user-attachments/assets/ad1133b5-fbed-42d3-bf0c-677c24d54dfe)
 
@@ -86,7 +86,7 @@ To do that:
 - Navigate to **Threat Policies** > **Safe Links**.
 - I click **Create policy** and define the policy.
 - I Enable real-time scanning of **URL links in emails**.
-- Then I reviewed and Applied the policy.
+- Then I reviewed and applied the policy.
 
 ![image](https://github.com/user-attachments/assets/0d5eae24-54bb-4903-88f6-df2b2590e686)
 
@@ -96,20 +96,19 @@ To do that:
 
 ![image](https://github.com/user-attachments/assets/3d183124-696f-49b4-bb25-df4e8f6fce7f)
 
-
-### **Setting up SPF, DKIM, and DMARC for Email Authentication**  
+## **Setting up SPF, DKIM, and DMARC for Email Authentication**  
 1. **SPF**: The SPF record has already been done
-2. Before I enabled the **DKIM** I sent an email from my domain to Gmail to see if it would pass **SPF** and **DKIM** using Mxtoolbox to verify and see if it passes **SPF** and **DKIM**.
+2. Before I enabled the **DKIM**, I sent an email from my domain to Gmail to see if it would pass **SPF** and **DKIM** using Mxtoolbox to verify and see if it passes **SPF** and **DKIM**.
 
 **The Screenshots below only show that it passes only SPF**
 <img width="939" alt="img11" src="https://github.com/user-attachments/assets/fd34363e-6587-4f36-ab90-5f5531c37a69" />
-<img width="935" alt="img12" src="https://github.com/user-attachments/assets/49d2fdfd-e643-4d28-b0ce-9da28d98758b" />
+![image](https://github.com/user-attachments/assets/09556709-d7b5-4ba7-8123-208c3553ccf6)
+![image](https://github.com/user-attachments/assets/ff850751-9d45-450c-a706-11422b125f4e)
 
-<img width="918" alt="img10" src="https://github.com/user-attachments/assets/cfba1802-2aa3-4624-a2e5-e532b2b417a1" />
+So after I published the **Cname** in my domain provider and then enabled **DKIM**, it passed both **SPF** and **DKIM**
 
-So after I published the **Cname** in my domain provider and then enabled **DKIM** it passed both **SPF** and **DKIM**
+![image](https://github.com/user-attachments/assets/80a86282-cade-4380-8b3f-59eeae8aabb2)
 
-![image](https://github.com/user-attachments/assets/7765df93-9801-4bbc-a5a1-7c55c481364a)
 
 ![image](https://github.com/user-attachments/assets/f959fd2c-07c5-4b08-b731-e1d614806ff1)
 
