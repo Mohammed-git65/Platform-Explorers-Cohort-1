@@ -108,16 +108,12 @@ To do that:
 So after I published the **Cname** in my domain provider and then enabled **DKIM**, it passed both **SPF** and **DKIM**
 
 ![image](https://github.com/user-attachments/assets/80a86282-cade-4380-8b3f-59eeae8aabb2)
-
-
-![image](https://github.com/user-attachments/assets/f959fd2c-07c5-4b08-b731-e1d614806ff1)
-
-![image](https://github.com/user-attachments/assets/e3e39316-78ac-4d5a-8f25-2732837bd325)
+![image](https://github.com/user-attachments/assets/7e8c1b11-f7ce-4bdc-89ab-9a4c31d91356)
 
 
 ## **DMARC**
 
-![image](https://github.com/user-attachments/assets/a1f9e92d-9a3c-4199-a908-79b440af414a)
+![image](https://github.com/user-attachments/assets/4dd0460d-f48d-4820-b6d5-ef6a429f4d76)
 
 ## **Step 3: To Enable Zero-Hour Auto Purge (ZAP) in Microsoft 365 Defender**
 - Sign in to the **Microsoft 365 Defender portal**. 
@@ -128,15 +124,20 @@ So after I published the **Cname** in my domain provider and then enabled **DKIM
 - Under **Policies**, I selected **Anti-malware**, Selected the **Default (Default)** policy, and Clicked **Edit protection settings**. 
 - Then, I checked the box labeled **Enable zero-hour auto purge for malware (Recommended)**.
 - And Click **Save**. 
-![image](https://github.com/user-attachments/assets/100e5b74-cca6-4511-9500-51583503e233)
+![image](https://github.com/user-attachments/assets/5f375ed0-459a-49ad-a8b4-a2b8e3e0026d)
 
-## **After all the configurations I test for Phishing emails using Threat Explorer**
+
+## **After all the configurations, I test for Phishing emails using Threat Explorer**
 
 To do that:
 - I Access **Threat Explorer**
 - I went to the Microsoft Defender portal: https://security.microsoft.com
 - Navigate to **Email & collaboration** > **Explorer**
 - I selected the **Phish View** in **Threat Explorer** to filter the email 
-![image](https://github.com/user-attachments/assets/27529d36-626b-4aef-a8f9-3b6de426f767)
+![image](https://github.com/user-attachments/assets/c779315e-460d-43e4-86f8-053ef7e12b09)
 
-![image](https://github.com/user-attachments/assets/97d05a1a-5cd6-4638-b638-2a35bbe82807)
+![image](https://github.com/user-attachments/assets/99eabef8-7581-4ee5-8d05-84facf8bfb72)
+
+**Conclusion**
+Implementing these security measures significantly strengthened Fabrikam Inc.'s defenses against phishing attacks. By configuring Anti-Phishing and Anti-Spam policies, enabling Safe Links and Safe Attachments, and setting up SPF, DKIM, and DMARC, I created multiple layers of protection to prevent domain spoofing and malicious email threats. Additionally, activating Zero-Hour Auto Purge (ZAP) ensured that phishing emails were swiftly removed, even after delivery, reducing potential risks.
+To validate these implementations, I used Threat Explorer to analyze phishing attempts.
